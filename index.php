@@ -3,13 +3,26 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Pantalla de inicio</title>
+	<link rel="StyleSheet" href="style/style.css" type="text/css">
 </head>
 <body>
-	<LABEL><h1>Seleccione gestion a Realizar</h1></LABEL>
+	<h1 class="tituloprim">Herramienta de Gestiones Internas</h1>
 	<br>
 	<br>
-	<a href='menu_urg.php'><h3>Urgencias</h3></a>
 	<br>
-	<a href='menu_pnr.php'><h3>PNR</h3></a>
+	<label class="titulosec">Seleccione gestion a Realizar</label>
+	<br>
+	<br>
+	<div id="menu">
+	<p><a href='menu_urg.php'>Urgencias</a></p>
+	<br>
+	<p><a href='menu_pnr.php'>PNR</a></p>
+	</div>
+	<div>
+		<img src="img/atento_logo.jpg" alt="Atento Logo" width="480" height="170">
+	<br>
+	<br>
+	<label for="desarrollador"><font color="FFA302" size="1">Desarrollado por: Aquino Cristobal, Oriel Maximiliano.</font></label>
+	</div>
 </body>
 </html>

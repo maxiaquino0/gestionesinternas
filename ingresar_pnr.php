@@ -5,21 +5,22 @@
 <html>
 <head>
 	<title>Ingreso de PNR</title>
+	<link rel="StyleSheet" href="style/style.css" type="text/css">
 </head>
-<body bgcolor="06295F">
-	<font color="FFA302" size="7" >Gestion de PNR</font>
+<body>
+	<h1 class="tituloprim">Gestion de PNR</h1>
 	<br>
-	<font color="FFFFFF" size="5">Ingrese los datos pertinentes al PNR.</font>
+	<label class="titulosec">Ingrese los datos pertinentes al PNR.</label>
 	<br>
 	<br>
 	<form action="procesar_pnr.php" method="post">
-	<label for="aniurg" ><font color="FFA302">ANI:</font></label>
+	<label class="form">ANI:</label>
 	<input type="text" name="anipnr" size="8">
 	<br>
-	<label for="domani" ><font color="FFA302">Fecha del problema</font></label>
+	<label class="form">Fecha del problema</label>
 	<input type="text" name="fechpro" size="20">
 	<br>
-	<label for="contani"><font color="FFA302">Motivo del cliente:</font></label>
+	<label class="form">Motivo del cliente:</label>
 	<input type="text" name="motiv_cli" size="20">
 	<br>
 	<input type="submit" name="btoEnviar" value="Enviar"> 

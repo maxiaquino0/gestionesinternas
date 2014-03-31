@@ -15,12 +15,22 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Pantalla de inicio</title>
+	<link rel="StyleSheet" href="style/style.css" type="text/css">
 </head>
 <body>
+	<h1 class="tituloprim">Gestion de Urgencias</h1>
+	<br>
+	<div id="menu">
 	<a href='index.php'>Inicio</a>
+	<a href="menu_urg.php">Menu Urgencias</a>
+	<a href="menu_pnr.php">Menu PNR</a>
+	</div>
 	<br><br>
+	<label class="titulosec">Lista de Urgencias.</label>
+	<br><br>
+	<div>
 	<table border=1 class="mitabla">
-		<tr>
+		<tr class="tablaencab">
 			<th>Identificador</th>
 			<th>ANI</th>
 			<th>Domicilio</th>
@@ -30,7 +40,7 @@
 			<th>Aclaraciones</th>
 		</tr>
 		<?php foreach ($urgencias as $row) { ?>
-		<tr>
+		<tr class="tabla">
 			<td><?php echo $row->id  ?></td>
 			<td><?php  echo $row->ani ?></td>
 			<td><?php  echo $row->dom_ani ?></td>
@@ -41,5 +51,7 @@
 		</tr>
 		<?php } ?>
 	</table>
+	</div>
+
 </body>
 </html>

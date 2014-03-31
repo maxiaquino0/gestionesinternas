@@ -16,7 +16,7 @@ $GLOBALS['config'] = array(
             'db' => 'gestionesinternas',
             'engine' => 'mysql'
         )
- 
+               
     );
 //lo que esta entre parentesis se llama funcion anonima
 spl_autoload_register( function($class){

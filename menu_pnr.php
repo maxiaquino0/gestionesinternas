@@ -3,17 +3,19 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Gestion de PNR</title>
+	<link rel="StyleSheet" href="style/style.css" type="text/css">
 </head>
 
-<body bgcolor="06295F">
-	<label><font color="FFA302" size="7">Gestion de PNR</font></label>
+<body>
+	<h1 class="tituloprim">Gestion de PNR</h1>
 	<br>
 	<br>
-	<a href="ingresar_pnr.php"><font color="FFA302" size="4">Ingresar PNR</font></a>
-	<br>
-	<br>
-	<a href="listar_pnr.php"><font color="FFA302" size="4">Listar PNR</font></a>
-	<br>
+	<div id="menu">
+		<a href="ingresar_pnr.php"><font color="FFA302" size="4">Ingresar PNR</font></a>
+		<br>
+		<a href="listar_pnr.php"><font color="FFA302" size="4">Listar PNR</font></a>
+		<br>
+	</div>
 	<img src="img/atento_logo.jpg" alt="Atento Logo" width="480" height="170">
 	<br>
 	<br>

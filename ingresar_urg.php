@@ -5,37 +5,37 @@
 <html>
 <head>
 	<title>Ingreso de Urgencias</title>
+	<link rel="StyleSheet" href="style/style.css" type="text/css">
 </head>
-<body bgcolor="06295F">
-	<font color="FFA302" size="7" >Gestion de Urgencias</font>
+<body>
+	<h1 class="tituloprim">Gestion de Urgencias</h1>
 	<br>
-	<font color="FFFFFF" size="5">Ingrese los datos pertinentes a la Urgencia.</font>
-	<br>
+	<label class="titulosec">Ingrese los datos pertinentes a la Urgencia.</label>
 	<br>
 	<form action="procesar_urgencia.php" method="post">
-	<label for="aniurg" ><font color="FFA302">ANI:</font></label>
+	<label class="form">ANI:</label>
 	<input type="text" name="aniurg" size="8">
 	<br>
-	<label for="domani" ><font color="FFA302">Domicilio del Cliente:</font></label>
+	<label class="form">Domicilio del Cliente:</label>
 	<input type="text" name="domani" size="20">
 	<br>
-	<label for="contani"><font color="FFA302">Contacto del cliente:</font></label>
+	<label class="form">Contacto del cliente:</label>
 	<input type="text" name="contani" size="20">
 	<br>
-	<label for="domurg"><font color="FFA302">Domicilio de urgencia: </font></label>
+	<label class="form">Domicilio de urgencia:</label>
 	<input type="text" name="domurg" size="20">
 	<br>
-	<label for="urg"><font color="FFA302">Motivo de urgencia</font></label>
+	<label class="form">Motivo de urgencia:</label>
 	<input type="text" name="urg" size="20">
 	<br>
-	<label for="acla"><font color="FFA302">Aclaraciones:</font></label>
+	<label class="form">Aclaraciones:</label>
 	<br>
 	<textarea name="acla" rows="5" cols="30"></textarea>
 	<br>
 	<input type="submit" name="btoEnviar" value="Enviar"> 
 	</form>
 	<br>
-	<img src="img/atento_logo.jpg" alt="Atento Logo" width="480" height="170">
+	<img src="img/atento_logo.jpg" alt="Atento Logo" width="480" height="150">
 	<br>
 	<br>
 	<label for="desarrollador"><font color="FFA302" size="1">Desarrollado por: Aquino Cristobal, Oriel Maximiliano.</font></label>

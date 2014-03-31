@@ -3,17 +3,19 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Gestion de Urgencias</title>
+	<link rel="StyleSheet" href="style/style.css" type="text/css">
 </head>
 
-<body bgcolor="06295F">
-	<label><font color="FFA302" size="7">Gestion de Urgencias</font></label>
+<body>
+	<h1 class="tituloprim">Gestion de Urgencias</h1>
 	<br>
 	<br>
-	<a href="ingresar_urg.php"><font color="FFA302" size="4">Ingresar Urgencia</font></a>
+	<div id="menu">
+	<a href="ingresar_urg.php">Ingresar Urgencia</a>
 	<br>
+	<a href="listar_urg.php">Listar Urgencia</a>
 	<br>
-	<a href="listar_urg.php"><font color="FFA302" size="4">Listar Urgencia</font></a>
-	<br>
+	</div>
 	<img src="img/atento_logo.jpg" alt="Atento Logo" width="480" height="170">
 	<br>
 	<br>

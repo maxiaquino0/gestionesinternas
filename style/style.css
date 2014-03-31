@@ -1,0 +1,57 @@
+.tituloprim{
+	color: #FFA302;
+	font-size: 40px;
+	text-align: center;
+	text-decoration: underline;
+}
+
+.titulosec{
+	color: #FFA302;
+	font-size: 30px;
+	text-align: left;
+	text-decoration: none;
+}
+
+.form{
+	color: #FFA302;
+}
+
+.tablaencab{
+	color: #FFA302;
+	font-size: 15px;
+	text-align: center;
+	text-decoration: underline;
+}
+.tabla {
+	color: #000000;
+	font: 5px;
+	background-color: #FFFFFF;
+}
+
+body {
+	background: #06295F;
+}
+
+#menu p{
+	margin: 0px;
+	padding: 0px;
+}
+
+#menu a{
+	display: block;
+  	padding: 3px;
+  	width: 160px;
+  	background-color: #06295F;
+  	border: 1px solid #FFA302;
+  	text-align:center;
+}
+
+#menu a:link, #menu a:visited {
+	color: #FFA302;
+  	text-decoration: none;
+}
+
+#menu a:hover{
+	background-color: #FFA302;
+	color: #06295F;
+}
