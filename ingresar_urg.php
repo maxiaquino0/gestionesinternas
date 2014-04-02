@@ -10,6 +10,12 @@
 <body>
 	<h1 class="tituloprim">Gestion de Urgencias</h1>
 	<br>
+	<div id="menuhorizontal">
+	<a href='index.php'>Inicio</a>
+	<a href="menu_urg.php">Menu Urgencias</a>
+	<a href="menu_pnr.php">Menu PNR</a>
+	</div>
+	<br><br>
 	<label class="titulosec">Ingrese los datos pertinentes a la Urgencia.</label>
 	<br>
 	<form action="procesar_urgencia.php" method="post">

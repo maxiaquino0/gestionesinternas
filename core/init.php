@@ -9,6 +9,16 @@ $GLOBALS['config'] = array(
             'class' => 'classes/'
         ),
  
+/*
+        'mysql' => array(
+            'host' => 'mysql.hostinger.com.ar',
+            'user' => 'u136914734_maxi',
+            'password' => 'maxi18091989',
+            'db' => 'u136914734_gest',
+            'engine' => 'mysql'
+        )
+ */
+
         'mysql' => array(
             'host' => 'localhost',
             'user' => 'root',
@@ -16,7 +26,7 @@ $GLOBALS['config'] = array(
             'db' => 'gestionesinternas',
             'engine' => 'mysql'
         )
-               
+             
     );
 //lo que esta entre parentesis se llama funcion anonima
 spl_autoload_register( function($class){

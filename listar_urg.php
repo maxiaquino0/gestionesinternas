@@ -20,7 +20,7 @@
 <body>
 	<h1 class="tituloprim">Gestion de Urgencias</h1>
 	<br>
-	<div id="menu">
+	<div id="menuhorizontal">
 	<a href='index.php'>Inicio</a>
 	<a href="menu_urg.php">Menu Urgencias</a>
 	<a href="menu_pnr.php">Menu PNR</a>

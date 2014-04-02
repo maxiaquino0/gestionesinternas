@@ -55,3 +55,32 @@ body {
 	background-color: #FFA302;
 	color: #06295F;
 }
+
+#menuhorizontal{
+	float: left;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
+}
+
+#menuhorizontal a{
+	display: block;
+	float: left;
+	width: 100px;
+	text-decoration: none;
+	text-align: center;
+	color: #FFA302;
+	background-color: #06295F;
+	padding: 3px 5px;
+	border: 1px solid #FFA302;
+}
+
+#menuhorizontal a:hover{
+	background-color: #FFA302;
+	color: #06295F;
+}
+
+#menuhorizontal li {
+	display: inline;
+}
