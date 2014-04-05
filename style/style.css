@@ -1,15 +1,64 @@
-.tituloprim{
-	color: #FFA302;
-	font-size: 40px;
+.cabecera{
+	width: 100%;
+	height: 50px;
+	background-color: rgb(28,29,98);
+	color: rgb(206,139,32);
 	text-align: center;
 	text-decoration: underline;
+	font-size: 50px;
+	font-weight: bold;
 }
 
-.titulosec{
+.menuweb{
+	width: 100%;
+	height: 18px;
+	color: rgb(206,139,32);
+	text-align: right;
+	font-size: 20px;
+}
+a:link, a:visited{text-decoration: none;}
+a {
+	color: rgb(206,139,32); 
+}
+
+.subtitulo{
+width: 100%;
+height: 25px;
+color: rgb(206,139,32);
+text-decoration: underline;
+text-align: left;
+font-size: 30px;
+}
+
+#menu{
+	width: 100%;
+	height: 140px;
+}
+#menu p{
+	margin: 0px;
+	padding: 0px;
+}
+#menu a{
+	display: block;
+  	padding: 3px;
+  	width: 160px;
+  	background-color: #06295F;
+  	border: 1px solid #FFA302;
+  	text-align:center;
+}
+#menu a:link, #menu a:visited {
 	color: #FFA302;
-	font-size: 30px;
+  	text-decoration: none;
+}
+#menu a:hover{
+	background-color: #FFA302;
+	color: #06295F;
+}
+
+/*clases para la firma*/
+.firma{
+	width: 50%;
 	text-align: left;
-	text-decoration: none;
 }
 
 .form{
@@ -29,32 +78,10 @@
 }
 
 body {
-	background: #06295F;
+	background-color: rgb(28,29,98);
+
 }
 
-#menu p{
-	margin: 0px;
-	padding: 0px;
-}
-
-#menu a{
-	display: block;
-  	padding: 3px;
-  	width: 160px;
-  	background-color: #06295F;
-  	border: 1px solid #FFA302;
-  	text-align:center;
-}
-
-#menu a:link, #menu a:visited {
-	color: #FFA302;
-  	text-decoration: none;
-}
-
-#menu a:hover{
-	background-color: #FFA302;
-	color: #06295F;
-}
 
 #menuhorizontal{
 	float: left;
